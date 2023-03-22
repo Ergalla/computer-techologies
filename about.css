@@ -87,3 +87,27 @@ p {
 ::selection {
   background-color: green;
 }
+
+@media (max-width: 576px) {
+  p {
+    width: 500px;
+  }
+
+  .nav {
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 375px) {
+  .nav {
+    margin-left: 10%;
+  }
+
+  .nav a {
+    font-size: 18px;
+  }
+
+  p {
+    width: 300px;
+  }
+}

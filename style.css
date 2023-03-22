@@ -150,7 +150,7 @@ main img {
   }
 }
 
-@media (max-width: 576px) {  
+@media (max-width: 576px) {
   h1 {
     font-size: 25px;
   }
@@ -168,7 +168,7 @@ main img {
   .nav {
     margin-left: 10%;
   }
-   
+
   .nav a {
     font-size: 15px;
   }
