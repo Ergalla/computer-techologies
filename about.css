@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    300.92deg,
+    rgba(12, 112, 10, 0.88) 3.23%,
+    #121212 75.57%
+  );
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  user-select: none;
+}
+
+.nav {
+  margin-left: 50%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 39px;
+  padding: 12px;
+  transition: 0.5s;
+}
+
+.logo {
+  margin-left: 20%;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+marquee {
+  margin-top: 20px;
+}
+
+marquee img {
+  padding-left: 30px;
+}
+
+h2 {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 58px;
+  margin-left: 7%;
+  margin-top: 14px;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+  width: 760px;
+  color: #ffffff;
+  margin-left: 14%;
+}
+
+.nav a:hover {
+  color: gray;
+}
+
+::selection {
+  background-color: green;
+}
