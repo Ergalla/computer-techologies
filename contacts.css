@@ -6,7 +6,7 @@
 
 body {
   background: linear-gradient(
-    119.78deg,
+    200.78deg,
     rgba(12, 112, 10, 0.88) -3.84%,
     #121212 72.48%
   );
@@ -40,4 +40,58 @@ body {
 
 .logo {
   margin-left: 20%;
+}
+
+.nav a:hover {
+  color: gray;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h2 {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 58px;
+  margin-left: 7%;
+  margin-top: 50px;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+  width: 760px;
+  color: #ffffff;
+  margin-left: 14%;
+}
+
+::selection {
+  background-color: green;
+}
+
+@media (max-width: 576px) {
+  .nav {
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 375px) {
+  .nav {
+    margin-left: 10%;
+  }
+
+  .nav a {
+    font-size: 15px;
+  }
 }
